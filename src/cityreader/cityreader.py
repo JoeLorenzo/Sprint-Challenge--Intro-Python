@@ -60,7 +60,7 @@ print("length")
 print(len(cities))
 # Print the list of cities (name, lat, lon), 1 record per line.
 for c in cities:
-    print(c)
+    print(f"{c.name} {c.lon} {c.lat}")
 
 # STRETCH GOAL!
 #
